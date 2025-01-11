@@ -49,6 +49,7 @@ theme.set_highlights = function()
   hl(0, "Special", { fg = c.color, bg = 'NONE', })
   hl(0, "Directory", { link = 'Constant' })
   hl(0, "MoreMsg", { link = 'Constant' })
+  hl(0, "ModeMsg", { link = 'Constant' })
   hl(0, "Question", { link = 'Constant' })
 
 end
