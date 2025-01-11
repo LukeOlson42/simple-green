@@ -48,6 +48,7 @@ theme.set_highlights = function()
   hl(0, "WinBar", { link = 'Normal' })
   hl(0, "Special", { fg = c.color, bg = 'NONE', })
   hl(0, "Directory", { link = 'Constant' })
+  hl(0, "MoreMsg", { link = 'Constant' })
 
 end
 
