@@ -4,12 +4,11 @@ local hl = vim.api.nvim_set_hl
 local theme = {}
 
 theme.set_highlights = function()
-
   -- highlights
   hl(0, "Normal", { fg = c.fg, bg = c.bg, })
   hl(0, "SignColumn", { fg = 'NONE', bg = c.bg, })
   hl(0, "MsgArea", { fg = c.fg, bg = c.bg, })
-  hl(0, "Pmenu", { fg = c.keyword, bg = c.cursorline, })
+  hl(0, "Pmenu", { fg = c.popup_menu, bg = c.cursorline, })
   hl(0, "PmenuSel", { fg = c.color, bg = c.visualselect, })
   hl(0, "CursorLineNr", { fg = c.color, bg = 'NONE', bold=true, })
   hl(0, "Comment", { fg = c.comment, bg = 'NONE', italic=true, })
@@ -51,7 +50,6 @@ theme.set_highlights = function()
   hl(0, "MoreMsg", { link = 'Constant' })
   hl(0, "ModeMsg", { link = 'Constant' })
   hl(0, "Question", { link = 'Constant' })
-
 end
 
 return theme
