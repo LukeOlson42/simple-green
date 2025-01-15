@@ -1,5 +1,5 @@
 
-# can change this to be whatever you want as the accent color
+-- can change this to be whatever you want as the accent color
 local green = "#98c379"
 local green_bg = "#689349"
 
