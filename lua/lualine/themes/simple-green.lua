@@ -16,32 +16,32 @@ local colors = {
 return {
     normal = {
         a = { bg = theme.visualselect, fg = theme.popup_menu, gui = 'bold' },
-        b = { bg = colors.lightgray, fg = colors.white },
-        c = { bg = colors.darkgray, fg = colors.gray }
+        b = { bg = theme.cursorline, fg = theme.fg },
+        c = { bg = theme.visualselect, fg = theme.fg },
     },
     insert = {
-        a = { bg = theme.color_bg, fg = theme.visualselect, gui = 'bold' },
-        b = { bg = colors.lightgray, fg = colors.white },
-        c = { bg = colors.lightgray, fg = colors.white }
+        a = { bg = theme.color, fg = theme.visualselect, gui = 'bold' },
+        b = { bg = theme.cursorline, fg = theme.fg },
+        c = { bg = theme.visualselect, fg = theme.fg },
     },
     visual = {
         a = { bg = theme.visualselect, fg = theme.color, gui = 'bold' },
-        b = { bg = colors.lightgray, fg = colors.white },
-        c = { bg = colors.inactivegray, fg = colors.black }
+        b = { bg = theme.cursorline, fg = theme.fg },
+        c = { bg = theme.visualselect, fg = theme.fg },
     },
     replace = {
         a = { bg = theme.visualselect, fg = theme.color, gui = 'bold' },
-        b = { bg = colors.lightgray, fg = colors.white },
-        c = { bg = colors.black, fg = colors.white }
+        b = { bg = theme.cursorline, fg = theme.fg },
+        c = { bg = theme.visualselect, fg = theme.fg },
     },
     command = {
-        a = { bg = theme.color_bg, fg = theme.visualselect, gui = 'bold' },
-        b = { bg = colors.lightgray, fg = colors.white },
-        c = { bg = colors.inactivegray, fg = colors.black }
+        a = { bg = theme.color, fg = theme.visualselect, gui = 'bold' },
+        b = { bg = theme.cursorline, fg = theme.fg },
+        c = { bg = theme.visualselect, fg = theme.fg },
     },
     inactive = {
         a = { bg = theme.visualselect, fg = theme.popup_menu, gui = 'bold' },
-        b = { bg = colors.darkgray, fg = colors.gray },
-        c = { bg = colors.darkgray, fg = colors.gray }
+        b = { bg = theme.cursorline, fg = theme.fg },
+        c = { bg = theme.visualselect, fg = theme.fg },
     }
 }
