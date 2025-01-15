@@ -15,33 +15,33 @@ local colors = {
 }
 return {
     normal = {
-        a = { bg = theme.visualselect, fg = theme.popup_menu, gui = 'bold' },
-        b = { bg = theme.cursorline, fg = theme.fg },
+        a = { bg = theme.cursorline, fg = theme.popup_menu, gui = 'bold' },
+        b = { bg = theme.visualselect, fg = theme.fg },
         c = { bg = theme.visualselect, fg = theme.fg },
     },
     insert = {
         a = { bg = theme.color, fg = theme.visualselect, gui = 'bold' },
-        b = { bg = theme.cursorline, fg = theme.fg },
-        c = { bg = theme.visualselect, fg = theme.fg },
+        b = { bg = theme.visualselect, fg = theme.fg },
+        c = { bg = theme.cursorline, fg = theme.fg },
     },
     visual = {
         a = { bg = theme.visualselect, fg = theme.color, gui = 'bold' },
-        b = { bg = theme.cursorline, fg = theme.fg },
-        c = { bg = theme.visualselect, fg = theme.fg },
+        b = { bg = theme.visualselect, fg = theme.fg },
+        c = { bg = theme.cursorline, fg = theme.fg },
     },
     replace = {
         a = { bg = theme.visualselect, fg = theme.color, gui = 'bold' },
-        b = { bg = theme.cursorline, fg = theme.fg },
-        c = { bg = theme.visualselect, fg = theme.fg },
+        b = { bg = theme.visualselect, fg = theme.fg },
+        c = { bg = theme.cursorline, fg = theme.fg },
     },
     command = {
         a = { bg = theme.color, fg = theme.visualselect, gui = 'bold' },
-        b = { bg = theme.cursorline, fg = theme.fg },
-        c = { bg = theme.visualselect, fg = theme.fg },
+        b = { bg = theme.visualselect, fg = theme.fg },
+        c = { bg = theme.cursorline, fg = theme.fg },
     },
     inactive = {
         a = { bg = theme.visualselect, fg = theme.popup_menu, gui = 'bold' },
-        b = { bg = theme.cursorline, fg = theme.fg },
-        c = { bg = theme.visualselect, fg = theme.fg },
+        b = { bg = theme.visualselect, fg = theme.fg },
+        c = { bg = theme.cursorline, fg = theme.fg },
     }
 }
