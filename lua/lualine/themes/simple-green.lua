@@ -22,7 +22,7 @@ return {
     insert = {
         a = { bg = theme.color, fg = theme.visualselect, gui = 'bold' },
         b = { bg = theme.visualselect, fg = theme.fg },
-        c = { bg = theme.cursorline, fg = theme.fg },
+        c = { bg = theme.visualselect, fg = theme.fg },
     },
     visual = {
         a = { bg = theme.cursorline, fg = theme.color, gui = 'bold' },
