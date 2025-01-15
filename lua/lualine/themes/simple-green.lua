@@ -25,7 +25,7 @@ return {
         c = { bg = theme.cursorline, fg = theme.fg },
     },
     visual = {
-        a = { bg = theme.visualselect, fg = theme.color, gui = 'bold' },
+        a = { bg = theme.cursorline, fg = theme.color, gui = 'bold' },
         b = { bg = theme.visualselect, fg = theme.fg },
         c = { bg = theme.cursorline, fg = theme.fg },
     },
@@ -40,7 +40,7 @@ return {
         c = { bg = theme.cursorline, fg = theme.fg },
     },
     inactive = {
-        a = { bg = theme.visualselect, fg = theme.popup_menu, gui = 'bold' },
+        a = { bg = theme.cursorline, fg = theme.popup_menu, gui = 'bold' },
         b = { bg = theme.visualselect, fg = theme.fg },
         c = { bg = theme.cursorline, fg = theme.fg },
     }
