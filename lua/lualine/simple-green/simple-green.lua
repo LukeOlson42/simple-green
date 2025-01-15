@@ -15,7 +15,7 @@ local colors = {
 }
 return {
     normal = {
-        a = { bg = theme.visualselect, fg = theme.popup_menu, gui = 'bold' },
+        a = { bg = theme.visualselect, fg = theme.color, gui = 'bold' },
         b = { bg = colors.lightgray, fg = colors.white },
         c = { bg = colors.darkgray, fg = colors.gray }
     },
