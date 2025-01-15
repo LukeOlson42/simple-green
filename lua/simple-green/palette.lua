@@ -7,6 +7,7 @@ local colors = {
   visualselect = "#484c54",
   comment = "#777777",
   another_color = "#999999",
+  keyword = "#888888",
 }
 
 return colors
